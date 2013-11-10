@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "SCTI Font";
+  src: url("urw-gothic-l-book.ttf");
+  format("truetype");
+}
+
+body {
+    font-family: "SCTI Font", Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #2b99e0;
+}
+
+header .container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+header img {
+  display: block;
+
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+}
+
+input, a {
+  display: block;
+  margin: 0 auto;
+
+  background-color: #e8e8e8;
+  width: 80%; 
+  font-size: 36px;
+  text-align: center;
+}
+
+a {
+  margin-top: 20px;
+  padding: 10px 5px;
+
+  background-color: #2b99e0;
+  color: #fff;
+  border: 0;
+
+  text-decoration: none;
+}
