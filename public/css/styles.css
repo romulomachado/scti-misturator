@@ -30,7 +30,12 @@ header h1 {
   font-size: 48px;
 }
 
-input, a {
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.raffle input, .raffle a {
   display: block;
   margin: 0 auto;
 
@@ -40,7 +45,7 @@ input, a {
   text-align: center;
 }
 
-a {
+.raffle a {
   margin-top: 20px;
   padding: 10px 5px;
 
@@ -57,4 +62,78 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Support page */
+
+.sponsors h3 {
+  text-align: center;
+}
+
+.sponsor {
+  width: 20%;
+  margin: 0 2.5%;
+  display: inline-block;
+}
+
+.sponsor-algorich .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/algorich.png');
+}
+
+.sponsor-globo .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/globo.png');
+}
+
+.sponsor-subway .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/subway.png');
+}
+
+.sponsor-caelum .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/caelum.png');
+}
+
+.supporter {
+  width: 20%;
+  margin: 0 2.5%;
+  display: inline-block;
+}
+
+.supporter-thoughtworks .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/thoughtworks.jpg');
+}
+
+.supporter-casadocodigo .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/casadocodigo.jpg');
+}
+
+.supporter-novatec .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/novatec.jpg');
+}
+
+.supporter-uenf .logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-image: url('/images/uenf.jpg');
 }
