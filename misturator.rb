@@ -5,7 +5,7 @@ get '/' do
   slim :home, :format => :html5
 end
 
-get '/sort' do
+get '/sorteio' do
   @participants = File.open('lista.txt').
     readlines.
     map(&:chomp).
