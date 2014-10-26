@@ -1,7 +1,6 @@
 @font-face {
   font-family: "SCTI Font";
-  src: url("urw-gothic-l-book.ttf");
-  format("truetype");
+  src: url("urw-gothic-l-book.ttf") format("truetype");
 }
 
 body {
@@ -36,7 +35,7 @@ input, a {
   margin: 0 auto;
 
   background-color: #e8e8e8;
-  width: 80%; 
+  width: 80%;
   font-size: 36px;
   text-align: center;
 }
