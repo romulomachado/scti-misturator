@@ -2,17 +2,19 @@ doctype html
 html lang="en"
   head
     meta charset="UTF-8"
-    title SCTI | Misturator
+    title Apoio | SCTI - Misturator
     link href="css/styles.css" rel="stylesheet"
 
   body
     header
       .container
-        img src="/images/logo-scti.png"
+        a href="/"
+          img src="/images/logo-scti.png"
       h1 misturator
 
-    input type="text" value="#{@participant}" readonly="true"
-    a href="/sorteio" Sortear!
+    .raffle
+      input type="text" value="#{@participant}" readonly="true"
+      a href="/sorteio" Sortear!
 
     footer
-      p Absolutamente nada reservado.
+      p Absolutamente nada reservado. <a href="/apoio">Veja quem nos patrocina e apoia</a>.
