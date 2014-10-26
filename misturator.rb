@@ -14,3 +14,7 @@ get '/sorteio' do
   File.open('lista.txt', 'w') {|f| f.write @participants.join("\n") }
   slim :home, :format => :html5
 end
+
+get '/apoio' do
+  slim :supporters, :format => :html5
+end
